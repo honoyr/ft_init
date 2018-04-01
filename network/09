@@ -1,0 +1,3 @@
+
+#! /bin/bash
+nslookup 42.fr | grep 'Address: 163' | cut -d " " -f2
