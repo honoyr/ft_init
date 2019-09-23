@@ -1,1 +1,7 @@
 #!/bin/bash
+ipconfig getoption en0 server_identifier
+ipconfig getoption en0 router
+echo '_____________OR____________'
+ipconfig getpacket en0
+
+ifconfig en0

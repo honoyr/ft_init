@@ -1,0 +1,2 @@
+nameserver[0] : 10.51.1.253
+scutil --dns

@@ -1,0 +1,2 @@
+sudo hostname newname
+sudo nano /etc/hostname
