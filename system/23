@@ -1,0 +1,12 @@
+#Explain how connect yourself as new user. (With graphic session and SSH session)
+#~With SSH Session~
+#login to the server with the command: ssh root@<ip address>
+#make an account with the command: adduser <your username>
+#it will prompt you to set a password, make it good
+#it will prompt you to enter info about yourself, to be edgy leave it blank
+#press enter to save your info
+#if you want sudo, add yourself to the sudo group with the command: usermod -aG sudo <username>
+#
+#~With Graphic Session~
+#search for "Users and Groups"
+#click "add" 

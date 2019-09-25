@@ -1,0 +1,3 @@
+dpkg -l
+OR
+apt list --installed

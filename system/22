@@ -1,0 +1,4 @@
+#Find the command that add a new local user
+#add user name at end, checkable under /etc/passwd
+adduser
+

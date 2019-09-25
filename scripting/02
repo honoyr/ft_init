@@ -1,0 +1,12 @@
+
+#!/bin/bash
+if [[ -d /home/$1 ]]; then
+	deluser --remove-home $1
+fi
+
+# This will delete a real user and the user's home directory. 
+#
+# Type su - switch to root privilege.
+# If you had previously configured sudo privileges for the user you deleted
+#  by editing the /etc/sudoers file, you should remove the relevant line in
+#  the file by typing: visudo.
