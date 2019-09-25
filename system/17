@@ -1,0 +1,8 @@
+#Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
+
+ssh root@35.222.50.212
+
+#Note vi ../../etc/ssh/sshd_config 
+#Change the value next to PasswordAuthentication from no to yes.
+#PermitRootLogin prohibit-password to PermitRootLogin yes.
+#sudo service ssh restart
